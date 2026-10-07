@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Survey</name>
+<Folder><name>Plots</name>
+<Placemark><name>Plot A</name><description>North field</description>
+<ExtendedData><Data name="crop"><value>rice</value></Data></ExtendedData>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>
+78.8,14.4,120 78.801,14.4,120 78.801,14.401,121 78.8,14.401,120 78.8,14.4,120
+</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark>
+<Placemark><name>Road</name><LineString><coordinates>78.8,14.4,0 78.81,14.41,0</coordinates></LineString></Placemark>
+</Folder>
+<Placemark><name>Well</name><Point><coordinates>78.805,14.405,0</coordinates></Point></Placemark>
+<Placemark><name>Mixed</name><MultiGeometry>
+<Point><coordinates>78.8,14.4</coordinates></Point>
+<LineString><coordinates>78.8,14.4 78.81,14.41</coordinates></LineString>
+</MultiGeometry></Placemark>
+</Document></kml>
