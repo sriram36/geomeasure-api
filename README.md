@@ -1,5 +1,6 @@
 # GeoMeasure
 
+[![CI](https://github.com/sriram36/geomeasure-api/actions/workflows/ci.yml/badge.svg)](https://github.com/sriram36/geomeasure-api/actions)
 A FastAPI service that accepts a **Shapefile (`.zip`)** or **KML**, extracts every feature, and returns
 **area (polygons)** and **length (lines)** measurements computed in an appropriate **projected CRS**
 — never in degrees.
